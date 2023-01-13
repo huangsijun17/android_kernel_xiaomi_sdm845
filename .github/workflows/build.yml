@@ -24,7 +24,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/10
-        defconfig: vince_defconfig
+        defconfig: build.config.aarch64
         image: Image.gz-dtb
 
     - name: Release build
