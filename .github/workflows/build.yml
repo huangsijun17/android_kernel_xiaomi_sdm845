@@ -24,7 +24,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/10
-        defconfig: build.config.aarch64
+        defconfig: arch/arm64/configs/sdm845_defconfig
         image: Image.gz-dtb
 
     - name: Release build
